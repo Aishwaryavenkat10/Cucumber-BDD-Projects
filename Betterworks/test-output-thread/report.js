@@ -1,0 +1,4 @@
+$(document).ready(function() {
+CucumberHTML.timelineItems.pushArray([{"id":"17c13932-4271-47ff-a267-015f3cac5d24","feature":"Create Post Page Feature","scenario":"Create Post Page Title","start":1707125683386,"group":1,"content":"","tags":"","end":1707125702751,"className":"passed"},{"id":"c78e8ec9-bbda-4f83-a6a0-99ded1fb2255","feature":"Login Page Feature","scenario":"Login with correct credentials","start":1707125657704,"group":1,"content":"","tags":"","end":1707125683367,"className":"passed"},{"id":"e09b41a0-edb3-4a72-a465-0cf7300bda1b","feature":"Create Post Page Feature","scenario":"Creating a Post","start":1707125702755,"group":1,"content":"","tags":"","end":1707125726776,"className":"passed"}]);
+CucumberHTML.timelineGroups.pushArray([{"id":1,"content":"Thread[#1,main,5,main]"}]);
+});

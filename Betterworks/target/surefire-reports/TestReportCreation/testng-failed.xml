@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [TestReportCreation]">
+  <listeners>
+    <listener class-name="Analyzer.MyTransform"/>
+  </listeners>
+  <test name="run script(failed)">
+    <classes>
+      <class name="com.bw.testcases.ScriptTest">
+        <methods>
+          <include name="createPostTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.bw.testcases.ScriptTest -->
+    </classes>
+  </test> <!-- run script(failed) -->
+</suite> <!-- Failed suite [TestReportCreation] -->
